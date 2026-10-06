@@ -37,5 +37,5 @@ Numerical Methods* (AMS 527, Fall 2026). They were restructured into standalone
 studies and extended with additional analyses and theoretical checks. Each
 project's README says what was added.
 
-See also: [nullcline-guided symbolic regression](https://github.com/seoyeonpark927/null-cline-guided-sr),
+See also: [nullcline-guided symbolic regression](https://github.com/seoyeonpark927/nullcline-guided-sr),
 my research project on recovering equations of fast–slow systems.

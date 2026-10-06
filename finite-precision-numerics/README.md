@@ -36,8 +36,14 @@ Root of x³ − x − 1 (x* ≈ 1.3247), tolerance 10⁻¹⁰:
 | x ← (1 + x)^(1/3) | 15 | linear, factor \|g′(x*)\| ≈ 0.19 |
 | y ← y³ − 1 | diverges (1, 0, −1, −2, −9, −730, …) | \|g′(x*)\| ≈ 5.3 > 1 |
 
-The two fixed-point maps have the same fixed point. Only the one that is a
-contraction near x* converges.
+![root finding convergence](figures/root_finding_convergence.png)
+
+Both converging methods are linear, but the contraction factor of 0.19 beats
+bisection's 1/2, so fixed-point iteration needs fewer than half as many steps.
+The bisection error is not monotone: the midpoint can land closer to the root
+than the next one, even though the bracket always halves. The two fixed-point
+maps share the fixed point x*, but only the one that is a contraction near x*
+converges.
 
 ## Run
 
